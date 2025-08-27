@@ -4,9 +4,54 @@
 
 
 .boxes:hover{
+    transform: scale(1.005);
     filter: drop-shadow(0px 0px 10px rgba(235, 235, 235, 1));
 }
 
 .boxes:hover img{
     background-color: #539bf3;
 }
+
+.boxes2:hover{
+    transform: scale(1.005);
+    filter: drop-shadow(0px 0px 5px rgba(138, 131, 131, 0.30));
+}
+
+.boxes2:hover img{
+    background-color: #539bf3;
+}
+
+.boxes3{
+    filter: drop-shadow(0px 0px 10px rgba(235, 235, 235, 0.267));
+}
+
+.boxes3:hover{
+    filter: drop-shadow(0px 0px 10px rgba(235, 235, 235, 1));
+}
+
+.core-section-bg{
+    background-size: 100% 100%;
+}
+
+.moveImage{
+    animation: 10s infinite linear scrolling;
+}
+
+@keyframes scrolling {
+    0%{
+        top:0;
+    }
+
+    100%{
+        top:-50%;
+    }
+}
+
+.moving-img-gradient-top{
+    background: linear-gradient(180deg, #f4f8ff, #fff0);
+}
+
+.moving-img-gradient-bottom{
+    background: linear-gradient(0deg, #f4f8ff, #fff0);
+}
+
